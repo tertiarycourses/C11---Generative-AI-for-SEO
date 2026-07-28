@@ -1,0 +1,7 @@
+Page,Query,Clicks,Impressions,Synthetic_Average_Position,Observation_Window,Data_Status
+/guides/carry-on-packing-list,carry on packing list,42,2800,8.7,2026-06-01 to 2026-06-30,SYNTHETIC_TRAINING_EVIDENCE
+/guides/carry-on-packing-list,what to pack in carry on,19,1900,11.4,2026-06-01 to 2026-06-30,SYNTHETIC_TRAINING_EVIDENCE
+/guides/carry-on-packing-list,how to pack a carry on bag,16,1200,10.8,2026-06-01 to 2026-06-30,SYNTHETIC_TRAINING_EVIDENCE
+/collections/carry-on-organisers,packing cubes singapore,38,1650,7.9,2026-06-01 to 2026-06-30,SYNTHETIC_TRAINING_EVIDENCE
+/collections/carry-on-organisers,packing cubes for carry on,13,910,12.2,2026-06-01 to 2026-06-30,SYNTHETIC_TRAINING_EVIDENCE
+/support/repair-reuse-travel-gear,repair packing cube zipper,0,0,N/A,2026-06-01 to 2026-06-30,SYNTHETIC_TRAINING_EVIDENCE

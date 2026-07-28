@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+~$*
+.DS_Store
+courseware/qa-render/
+courseware/qa-render-final/
+courseware/qa-temp/
+*.tmp

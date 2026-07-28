@@ -1,0 +1,11 @@
+Layer,Finding,Evidence,Impact,Hypothesis_or_Fact,Priority,Recommended_Change,Owner,Verification,Status
+PURPOSE,Vague title,title element was Products,Page purpose was unclear,FACT,P2,Use selected descriptive title,Content Editor,Inspect head title text,VERIFIED
+ON_PAGE,Missing meta description,No meta name=description in source,Snippet input was absent,FACT,P2,Add selected page-specific description,Content Editor,Inspect head meta content,VERIFIED
+ON_PAGE,Two H1 elements,Travel Products and Carry On Packing were both H1,Heading hierarchy was ambiguous,FACT,P2,Keep one descriptive H1,Content Editor,Count visible H1 nodes,VERIFIED
+PURPOSE,Thin unsupported opening,Opening said best and save 40 percent without evidence,Trust and source traceability failed,FACT,P2,Use approved source-grounded opening,Content Editor,Compare opening with claim ledger,VERIFIED
+ON_PAGE,Generic internal-link wording,Span text said Click here,Destination purpose was unclear,FACT,P2,Use descriptive anchors,Content Editor,Inspect anchor text and href,VERIFIED
+EXPERIENCE,JavaScript-only navigation,Span onclick changed location and was not an anchor,Keyboard and crawl path may be obstructed,HYPOTHESIS,P1,Replace with real anchor links,Web Developer,Inspect a href nodes and keyboard focus,VERIFIED
+CRAWL_INDEX,Accidental noindex,robots meta content was noindex follow,Intended indexing was blocked by page instruction,FACT,P0,Remove robots noindex element,Web Developer,Inspect head and confirm no noindex,VERIFIED
+CRAWL_INDEX,Conflicting canonical,Canonical pointed to example.invalid products,Preferred URL signal conflicted,FACT,P1,Set exact sample self-canonical,Web Developer,Inspect canonical href,VERIFIED
+EXPERIENCE,Missing image alt,Header image had no alt attribute,Image purpose was not conveyed,FACT,P2,Add meaningful wordmark alt,Content Editor,Inspect img alt and accessibility tree,VERIFIED
+EXPERIENCE,Missing mobile viewport,No viewport meta element in head,Mobile layout may render poorly,HYPOTHESIS,P2,Add width device-width initial-scale 1,Web Developer,Inspect viewport meta and resize browser,VERIFIED
